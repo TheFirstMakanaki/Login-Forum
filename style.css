@@ -1,0 +1,129 @@
+/* 
+rgb(rgb(249, 157, 173)) rgb(rgb(237, 85, 111)) rgb(rgb(93, 4, 19)));
+*/
+
+body{
+    background: linear-gradient(to right, red, blue);;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    letter-spacing: 10px;
+    animation: white-grey 3s linear 0s infinite alternate-reverse;
+}
+
+h3{
+    text-align: center;
+    font-family: serifs;
+    color: white;
+}
+
+h4{
+    margin-bottom: 0%;
+    color: rgb(4, 4, 127);
+    font-weight: bold;
+    font-size: 17px;
+}
+
+@keyframes white-grey{
+    from{color: white;}
+    to{color: rgb(236, 168, 43)}
+}
+
+.main{
+    text-align: center;
+    background-color: rgb(187, 235, 13);
+    padding: 25px 7% 25px 7%;
+    margin: 1px 20%;
+    background: white;
+}
+
+input{
+    text-align: center;
+    border-radius: 15px;
+    padding: 10px 12% 10px 12%;
+}
+
+.facebook{
+    background: linear-gradient(to right, skyblue, blue, rgb(4, 36, 135));
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 17% 10px 17%;
+    border: white;
+    border-radius: 15px;
+    animation: sky-deep 3s linear 0s infinite alternate;
+}
+
+.facebook:hover{
+    color: skyblue;
+    transition: all 0.5s ease;
+}
+
+@keyframes sky-deep{
+    from{background: rgb(67, 184, 231);}
+    to{background: rgb(11, 11, 175);}
+}
+
+.login{
+    text-align: center;
+    font-size: 18px;
+    padding: 10px 29.5% 10px 29.5%;
+    background: linear-gradient(to right, rgb(249, 157, 173), rgb(237, 85, 111), rgb(93, 4, 19));
+    color: white;
+    text-decoration: none;
+    border-radius: 15px;
+    animation: flow-in 3s ease-in-out 0s infinite alternate-reverse;
+}
+
+.login:hover{
+    color: skyblue;
+    transition: all 1s ease;
+}
+
+.google{
+    text-align: center;
+    font-size: 20px;
+    border-radius: 15px;
+    color: white;
+    background: linear-gradient(to right, rgb(249, 157, 173), rgb(237, 85, 111), rgb(93, 4, 19));
+    padding: 10px 19% 10px 19%;
+    text-decoration: none;
+    animation: flow-in 3s linear 0s infinite alternate-reverse;
+}
+
+.google:hover{
+    color: skyblue;
+    transition: all 1s ease;
+}
+
+hr{
+    margin-top: 0%;
+    margin-bottom: 20px;
+}
+
+@keyframes flow-in{
+    0%{background:rgb(231, 108, 129);transform: translate(0px,0px);}
+
+    50%{background:rgb(179, 57, 77);transform: translate(10px,10px);}
+
+    100%{background:rgb(132, 14, 34);transform: translate(20px,20px);}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
